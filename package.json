@@ -1,7 +1,7 @@
 {
-  "name": "qiji-cli2",
-  "version": "0.3.2",
-  "description": "- 参考文档：",
+  "name": "qiji-cli",
+  "version": "0.3.4",
+  "description": "- 参考文档：https://blog.csdn.net/weixin_39579517/article/details/117950015",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "qiji-cli2": "./bin/index.js"
+    "qiji-cli": "./bin/index.js"
   },
   "private": false,
   "dependencies": {
