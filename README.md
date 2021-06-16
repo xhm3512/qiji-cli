@@ -13,12 +13,54 @@
 
 创建完成后结构如下：
 ```
-├─.gitignore
+qiji_creator
+├─.eslintignore
+├─.eslintrc.js
+├─.prettierignore
+├─.prettierrc
+├─.stylelintrc.json
+├─.umirc.ts
+├─.vcmrc
+├─CHANGELOG.md
 ├─README.md
+├─beta.sh
+├─commitlint.config.js
+├─jsconfig.json
 ├─package-lock.json
 ├─package.json
-├─command
-|    └init.js
+├─stylelintrc.js
+├─tree.txt
+├─tsconfig.json
+├─typings.d.ts
+├─src
+|  ├─Loading.tsx
+|  ├─app.tsx
+|  ├─utils
+|  |   └tools.js
+|  ├─service
+|  |    ├─api.js
+|  |    ├─axios.tsx
+|  |    ├─index.js
+|  |    └urlConfig.js
+|  ├─pages
+|  |   ├─404.tsx
+|  |   ├─index.less
+|  |   ├─index.tsx
+|  |   ├─Works
+|  |   |   ├─index.less
+|  |   |   └index.tsx
+|  ├─models
+|  |   └crowd.tsx
+|  ├─layouts
+|  |    ├─_defaultProps.tsx
+|  |    ├─index.less
+|  |    └index.tsx
+|  ├─components
+|  |     ├─SideMenu
+|  |     |    ├─index.less
+|  |     |    └index.tsx
+|  ├─.umi-production
+|  ├─.umi
 ```
 ### 文档：
 - npm下载地址：[点这里](https://www.npmjs.com/package/qiji-cli)   
