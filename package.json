@@ -1,12 +1,12 @@
 {
   "name": "qiji-cli",
-  "version": "0.3.6",
+  "version": "0.3.8",
   "description": "- 参考文档：https://blog.csdn.net/weixin_39579517/article/details/117950015",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "2444544964@qq.com",
   "license": "ISC",
   "bin": {
     "qiji-cli": "./bin/index.js"
@@ -18,6 +18,7 @@
     "commander": "^7.2.0",
     "download-git-repo": "^3.0.2",
     "ejs": "^3.1.6",
+    "handlebars": "^4.7.7",
     "inquirer": "^8.1.1",
     "ora": "^5.4.1",
     "qiji-cli": "0.0.4"
