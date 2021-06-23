@@ -70,7 +70,7 @@ module.exports = (projectName) => {
       const tplName = answers.template;
       // 分步接收用户输入的参数
       if (tplName == "vue" || tplName == 'react') {
-        const text = 'Loading ' + tplName + ' template';
+        const text = 'Loading ' + tplName + ' template...';
         const spinner = ora(text).start();
         spinner.color = 'yellow';
         spinner.text = text;

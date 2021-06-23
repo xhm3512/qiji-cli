@@ -2,14 +2,14 @@
 
 ###   安装
 #### mac安装
->sudo npm i qiji-cli -g
+>sudo npm i xmq -g
 
 
 #### windows安装
->npm i qiji-cli -g
+>npm i xmq -g
 ### 模块
 #### 初始化
-> qiji-cli init 目录名
+> xmq init 目录名
 
 创建完成后结构如下：
 ```
@@ -62,6 +62,10 @@ qiji_creator
 |  ├─.umi-production
 |  ├─.umi
 ```
+#### 进入当前项目
+> cd 目录名
+#### 安装依赖包
+> npm i
 ### 文档：
 - npm下载地址：[点这里](https://www.npmjs.com/package/qiji-cli)   
 - gitup源码地址：[点这里](https://github.com/xhm3512/qiji-cli)  ，欢迎Star✨。

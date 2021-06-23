@@ -1,6 +1,6 @@
 {
   "name": "qiji-cli",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "- 参考文档：https://blog.csdn.net/weixin_39579517/article/details/117950015",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "2444544964@qq.com",
   "license": "ISC",
   "bin": {
-    "qiji-cli": "./bin/index.js"
+    "xmq": "./bin/index.js"
   },
   "private": false,
   "dependencies": {
