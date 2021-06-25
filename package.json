@@ -1,6 +1,6 @@
 {
-  "name": "qiji-cli",
-  "version": "0.5.0",
+  "name": "xmq",
+  "version": "0.0.3",
   "description": "- 参考文档：https://blog.csdn.net/weixin_39579517/article/details/117950015",
   "main": "index.js",
   "scripts": {

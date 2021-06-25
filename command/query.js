@@ -43,7 +43,7 @@ module.exports = (projectName) => {
       if (tplName === "vue") {
         detailDownloadFunc('direct:http://gitlab.ximalaya.com/qiji/qiji_wap', projectName, spinner)
       } else if (tplName === "react") {
-        detailDownloadFunc('gitlab.ximalaya.com:qiji/qiji_creator#test', projectName, spinner)
+        detailDownloadFunc('gitlab.ximalaya.com:qiji/qiji_creator#webpack', projectName, spinner)
       }
     } else {
       console.error('A template name that does not exist')
