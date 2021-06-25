@@ -78,7 +78,7 @@ module.exports = (projectName) => {
           detailDownloadFunc('direct:http://gitlab.ximalaya.com/qiji/qiji_wap', projectName, spinner, answers)
         } else if (tplName === "react") {
           // detailDownloadFunc('gitlab.ximalaya.com:qiji/qiji_creator#test', projectName, spinner, answers)
-          detailDownloadFunc('direct:http://gitlab.ximalaya.com/qiji/qiji_creator#test', projectName, spinner, answers);
+          detailDownloadFunc('direct:http://gitlab.ximalaya.com/qiji/qiji_creator#webpack', projectName, spinner, answers);
         }
       } else {
         console.error('A template name that does not exist')
